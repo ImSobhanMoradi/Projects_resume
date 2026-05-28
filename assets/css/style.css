@@ -12,3 +12,23 @@
 .m-t-0 {
   margin-top: 0px !important;
 }
+
+@media (min-width: 600px) {
+  #top_action_section {
+    display: flex !important;
+    align-items: center !important;
+  }
+}
+
+/* .project_body_list .project_content {
+  transition: all ease 200ms;
+} جایگزین این مورد در util.css یافت شد*/
+
+.project_body_list.active .project_content {
+  transform: rotate(180deg);
+}
+
+.project_body_list.active,
+.project_body_list.active .collapsible-header {
+  background-color: rgba(100, 100, 100, 0.1);
+}
