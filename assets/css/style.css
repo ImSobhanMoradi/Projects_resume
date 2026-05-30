@@ -37,3 +37,8 @@ table.highlight > tbody > tr:hover {
   background-color: rgba(185, 246, 105, 0.458);
 }
 /* } این استایل از فایل متریالایز برای تغییر رنگ به اینجا آورده شده */
+
+.container{
+  width: 100% !important;
+}
+/* بازنویسی و تغییر کوچک در container متریالایز */
