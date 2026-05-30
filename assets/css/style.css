@@ -32,3 +32,8 @@
 .project_body_list.active .collapsible-header {
   background-color: rgba(100, 100, 100, 0.1);
 }
+
+table.highlight > tbody > tr:hover {
+  background-color: rgba(185, 246, 105, 0.458);
+}
+/* } این استایل از فایل متریالایز برای تغییر رنگ به اینجا آورده شده */
